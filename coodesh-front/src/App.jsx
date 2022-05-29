@@ -27,7 +27,7 @@ function App() {
 
   return (
     <div className="text-3xl font-bold underline">
-      <h1>FUUUUCK</h1>
+      <h1>Home</h1>
       {isLoading && <h2>....Loading</h2>}
       {isFetching && <h2>....Fetching</h2>}
       {error && <h2>error{console.log(error)}</h2>}
@@ -38,7 +38,7 @@ function App() {
           dispatch(increment());
         }}
       >
-        dsdasdasdsa
+        button that will increment on intersection observer
       </button>
       <button></button>
     </div>
